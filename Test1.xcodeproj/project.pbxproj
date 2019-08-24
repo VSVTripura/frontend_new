@@ -25,6 +25,12 @@
 		18224BCB230A4B87004A2F40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18224BCA230A4B87004A2F40 /* LoginViewController.swift */; };
 		18224BCD230A4F0D004A2F40 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18224BCC230A4F0D004A2F40 /* RegisterViewController.swift */; };
 		18224BCF230A73E5004A2F40 /* DirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18224BCE230A73E5004A2F40 /* DirectViewController.swift */; };
+		18B8BF582311005A00E19A2C /* D@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BF542311005A00E19A2C /* D@2x.png */; };
+		18B8BF592311005A00E19A2C /* S@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BF552311005A00E19A2C /* S@2x.png */; };
+		18B8BF5A2311005A00E19A2C /* U@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BF562311005A00E19A2C /* U@2x.png */; };
+		18B8BF5B2311005A00E19A2C /* A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BF572311005A00E19A2C /* A@2x.png */; };
+		18B8BF5D2311006D00E19A2C /* ZSeatSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BF5C2311006D00E19A2C /* ZSeatSelector.swift */; };
+		18B8BF5F2311009800E19A2C /* SeatSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BF5E2311009700E19A2C /* SeatSelectionViewController.swift */; };
 		C089490455452666F89A6AB8 /* Pods_Test1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FF66FC48060BC962C03D /* Pods_Test1.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +56,12 @@
 		18224BCA230A4B87004A2F40 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18224BCC230A4F0D004A2F40 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		18224BCE230A73E5004A2F40 /* DirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectViewController.swift; sourceTree = "<group>"; };
+		18B8BF542311005A00E19A2C /* D@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "D@2x.png"; sourceTree = "<group>"; };
+		18B8BF552311005A00E19A2C /* S@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S@2x.png"; sourceTree = "<group>"; };
+		18B8BF562311005A00E19A2C /* U@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "U@2x.png"; sourceTree = "<group>"; };
+		18B8BF572311005A00E19A2C /* A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A@2x.png"; sourceTree = "<group>"; };
+		18B8BF5C2311006D00E19A2C /* ZSeatSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSeatSelector.swift; sourceTree = "<group>"; };
+		18B8BF5E2311009700E19A2C /* SeatSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSelectionViewController.swift; sourceTree = "<group>"; };
 		D070FF66FC48060BC962C03D /* Pods_Test1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E853AB3C7BD4AC5C07B51F5C /* Pods-Test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test1.debug.xcconfig"; path = "Target Support Files/Pods-Test1/Pods-Test1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +99,11 @@
 		18224BAD2306C1C6004A2F40 /* Test1 */ = {
 			isa = PBXGroup;
 			children = (
+				18B8BF5C2311006D00E19A2C /* ZSeatSelector.swift */,
+				18B8BF572311005A00E19A2C /* A@2x.png */,
+				18B8BF542311005A00E19A2C /* D@2x.png */,
+				18B8BF552311005A00E19A2C /* S@2x.png */,
+				18B8BF562311005A00E19A2C /* U@2x.png */,
 				18224BAE2306C1C6004A2F40 /* AppDelegate.swift */,
 				18224BB02306C1C6004A2F40 /* ViewController.swift */,
 				18224BB22306C1C6004A2F40 /* Main.storyboard */,
@@ -106,6 +123,7 @@
 				18170704230D4C6C001330CE /* EditProfile.swift */,
 				18170706230D4D8F001330CE /* UpdateContactNo.swift */,
 				18170708230D4DC8001330CE /* UpdatePassword.swift */,
+				18B8BF5E2311009700E19A2C /* SeatSelectionViewController.swift */,
 			);
 			path = Test1;
 			sourceTree = "<group>";
@@ -187,8 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B8BF5A2311005A00E19A2C /* U@2x.png in Resources */,
 				18224BB92306C1C7004A2F40 /* LaunchScreen.storyboard in Resources */,
+				18B8BF582311005A00E19A2C /* D@2x.png in Resources */,
+				18B8BF592311005A00E19A2C /* S@2x.png in Resources */,
 				18224BB62306C1C7004A2F40 /* Assets.xcassets in Resources */,
+				18B8BF5B2311005A00E19A2C /* A@2x.png in Resources */,
 				18224BB42306C1C6004A2F40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,9 +267,11 @@
 				18224BCB230A4B87004A2F40 /* LoginViewController.swift in Sources */,
 				18224BC52309A334004A2F40 /* UIView + Extension.swift in Sources */,
 				18224BCD230A4F0D004A2F40 /* RegisterViewController.swift in Sources */,
+				18B8BF5F2311009800E19A2C /* SeatSelectionViewController.swift in Sources */,
 				181706FF230D16CB001330CE /* BookNow1.swift in Sources */,
 				181706FD230B0B7B001330CE /* MyBookings.swift in Sources */,
 				18170709230D4DC8001330CE /* UpdatePassword.swift in Sources */,
+				18B8BF5D2311006D00E19A2C /* ZSeatSelector.swift in Sources */,
 				18224BB12306C1C6004A2F40 /* ViewController.swift in Sources */,
 				18224BAF2306C1C6004A2F40 /* AppDelegate.swift in Sources */,
 				18224BC323099E57004A2F40 /* EditProfileViewController.swift in Sources */,

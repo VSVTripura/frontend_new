@@ -578,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D7O-Pm-kfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5807" y="-230"/>
+            <point key="canvasLocation" x="5861" y="-332"/>
         </scene>
         <!--My Bookings-->
         <scene sceneID="Amo-WM-3BR">
@@ -889,7 +889,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="52Z-nB-Tcz" kind="show" identifier="mySegue2" id="LbS-Yq-eXF"/>
+                                            <segue destination="nKE-Ck-xPZ" kind="show" identifier="buslisttoseatsel" id="L6G-xF-sNy"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -905,6 +905,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbB-yx-ic0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4170" y="386"/>
+        </scene>
+        <!--Seat Selection View Controller-->
+        <scene sceneID="Igq-RK-G9S">
+            <objects>
+                <viewController id="nKE-Ck-xPZ" customClass="SeatSelectionViewController" customModule="Test1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ieT-gF-z5o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ag-Zu-12N">
+                                <rect key="frame" x="146" y="755" width="122" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="next:" destination="nKE-Ck-xPZ" eventType="touchUpInside" id="TvK-Q2-mWl"/>
+                                    <segue destination="52Z-nB-Tcz" kind="show" identifier="seatseltopreview" id="gwH-d7-0HE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aCX-5K-hDB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lL-Zx-ROw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4966.666666666667" y="373.66071428571428"/>
         </scene>
         <!--Preview-->
         <scene sceneID="CNI-ay-Q5e">
@@ -1018,7 +1044,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D4A-He-vyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5236" y="386"/>
+            <point key="canvasLocation" x="5916" y="408"/>
         </scene>
         <!--Edit Profile-->
         <scene sceneID="V7o-WF-OSz">

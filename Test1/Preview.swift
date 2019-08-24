@@ -22,30 +22,24 @@ class Preview: UIViewController {
     
     var myFrom:String?
     var myTo:String?
-    var mydateOfJourney:String?
+    var myDateOfJourney:String?
+    var myServiceNo:String?
+    var mySeatNo:String?
     override func viewDidLoad() {
         super.viewDidLoad()
         //print(myFrom!)
-        serviceNo.text="1806"
+        serviceNo.text=myServiceNo
         from.text=myFrom
         to.text=myTo
-        dateOfJourney.text=mydateOfJourney
-        seatNumber.text="12"
+        
+        dateOfJourney.text=myDateOfJourney
+        seatNumber.text=mySeatNo
         cost.text="800"
         
         // Do any additional setup after loading the view.
     }
     
     
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+  
     
 }

@@ -27,17 +27,19 @@ class BusList: UIViewController, UITextFieldDelegate , UITableViewDelegate, UITa
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         self.navigationItem.title=nil
-        if segue.identifier=="mySegue2"{
+        if segue.identifier=="buslisttoseatsel"{
             print("heelo")
-            let s=segue.destination as! Preview
+            let s=segue.destination as! SeatSelectionViewController
             //s.fromPlace=self.from
             //print("from in second \(s.from)")
             //s.to=self.to
             //s.dateOfJournery=self.dateOfJourney
             // s.myFrom=self.fromPlace
+            
             s.myFrom=self.fromPlace
             s.myTo=self.to
-            s.mydateOfJourney=self.dateOfJournery
+            s.myDateOfJourney=self.dateOfJournery
+            s.myServiceNo=self.servcNo
             
         }
     }
@@ -45,7 +47,7 @@ class BusList: UIViewController, UITextFieldDelegate , UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //s.test="test"
         
-        self.performSegue(withIdentifier:"mySegue2", sender: self)
+        self.performSegue(withIdentifier:"buslisttoseatsel", sender: self)
         // navigationController?.pushViewController(NewController(), animated: true)
         
     }

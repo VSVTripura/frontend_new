@@ -23,9 +23,9 @@ class BookNow1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        textField.optionArray = ["Hyderabad","Banglore","Mumbai"]
+        textField.optionArray = ["Hyderabad","Bangalore","Mumbai"]
         
-        DropDown2.optionArray=["Hyderabad","Banglore","Mumbai"]
+        DropDown2.optionArray=["Hyderabad","Bangalore","Mumbai"]
         
         //Its Id Values and its optional
         // textField.optionIds = [1,23,54,22]
